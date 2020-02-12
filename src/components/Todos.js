@@ -28,13 +28,17 @@ const Todos = () => {
               setTodos(prevTodos => [...prevTodos, inputValue]);
               setInputValue("");
             }} >Add</button>
-     </div>
-      </div>
+       </div>
+        </div>
       {todos.map((value, index) => {
         console.log(value,index);
         return (
-          <li className="list-group-item d-flex justify-content-between align-items-center"key={index}>{" "}{value}{" "}<span type="button"onClick={() => {deleteTodos(index);}} >X</span>{" "}</li>);})}
+          <li className="list-group-item d-flex justify-content-between align-items-center"key={index}
+          >{" "}{value}{" "}<span type="button"onClick={() => 
+           {deleteTodos(index);}} >X</span>{" "}</li>);})}
+          <li>{todos.length} Items Left</li>
           </div>
+        
           );
         };
 
