@@ -10,7 +10,7 @@ const Todos = () => {
     });
   };
         return (
-    <div>
+    <div><h1>To-Do List</h1>
       <div className="input-group mb-3">
           <input type="text"
             className="form-control"
@@ -37,6 +37,7 @@ const Todos = () => {
           >{" "}{value}{" "}<span type="button"onClick={() => 
            {deleteTodos(index);}} >X</span>{" "}</li>);})}
           <li>{todos.length} Items Left</li>
+          
           </div>
         
           );
