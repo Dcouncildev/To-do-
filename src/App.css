@@ -1,42 +1,31 @@
-html, body {
-    height: 100%;
-    color: #61DAFB;
+
+
+.body {
+    height: 100%;;
     background: #2D2D2D;
+    margin: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
-  
-  h1 {
-    margin: 20px 0 15px 0;  
+  .bigBox{
+      margin: 100px auto;
+      width: 40%;
+      background-color: whitesmoke;
+      padding-bottom: 25px;
+      padding-top: 25px;
+      border-radius: 5px;
   }
-  
-  #main {
-    width: 600px;
-    margin: 0 auto;
-    text-align: left;
+  .mainTitle{  
+    text-align: center;
+    height: 100px;
+    position: relative;
+    overflow: auto;
+    font-size: 70px;
   }
-  
-  ul {
-    list-style: none;
+  .mainInput{
+      width: 80%;
+      margin: auto;
   }
-  
-  ul>li:hover {
-    background-color: #F5F5F5;
+  .mainLi{
+    width: 80%;
+    margin: auto;
   }
-  
-  .form-inline .form-control {
-    width: 50%;
-    margin-left: 80px;
-  }
-  
-  .done {
-    color: red;
-    text-decoration: line-through;
-  }
-  
-  .undone {
-    color: #61DAFB;
-  }
-  
-  .icon {
-    margin: 6px 10px 6px 0;
-  }
-  
